@@ -24,4 +24,17 @@
     pincel.beginPath();
     pincel.arc(300, 200, 130, 0, 2 * 3.14);
     pincel.fill();
+
+    function paises() {
+
+        pincel.fillStyle = 'white';
+        pincel.beginPath();
+        pincel.arc(300, 200, 2, 0, 2 * 3.14);
+        pincel.fill();
+
+        return paises();
+
+    }
+
+    paises()
 </script>
